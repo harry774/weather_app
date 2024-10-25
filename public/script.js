@@ -15,7 +15,7 @@ searchBox.addEventListener("input", () => {
             document.querySelector(".error").style.display = "none";
             document.querySelector(".weather").style.display = "none";
         }
-    }, 700);
+    }, 500);
 });
 
 async function checkWeather(city) {
